@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#title{
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 8rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* navigation bar  */
+
+.navbar-brand{
+    font-size: 5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    padding-bottom: 4.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/* download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image  */
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    /* position: relative; */
+}
+
+/* .....features sections..... */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: red;
+}
+
+/* testimonials sections */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.carousel-item{
+    padding: 7% 20%;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 13%;
+    margin: 20px  20px 50px ;
+}
+
+
+/* .......pricing section....... */
+#pricing h2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 45px;
+}
+#pricing p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* .....call to Action..... */
+#cta{
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  
+}
+#cta h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+
+/* ..........Footer section... */
+#footer{
+    text-align: center;
+    padding-top: 15px;
+}
+.social-icon{
+    margin: 20px 10px;
+}
